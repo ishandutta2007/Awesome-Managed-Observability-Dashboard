@@ -171,3 +171,4 @@ If you find this curated list valuable for your team or project, please consider
 </p>
 # Awesome-Managed-Observability-Dashboard
 
+Let me search for open-source observability dashboards and Grafana alternatives.
