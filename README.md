@@ -169,3 +169,5 @@ If you find this curated list valuable for your team or project, please consider
 <p align="center">
   <b>Made with ❤️ for SREs, DevOps, Platform Engineers, and System Architects.</b>
 </p>
+# Awesome-Managed-Observability-Dashboard
+
