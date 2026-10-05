@@ -40,63 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-- **[Azure Managed Grafana](https://azure.microsoft.com/products/managed-grafana/)**  
-
-  Microsoft’s fully managed Grafana service integrated with Azure Monitor, Azure data sources, and enterprise authentication.
-
-
-
-- **[Amazon Managed Grafana](https://aws.amazon.com/grafana/)**  
-
-  AWS-managed Grafana service with native integrations to CloudWatch, X-Ray, Prometheus, and other AWS observability data sources.
-
-
-
-- **[Grafana Cloud](https://grafana.com/products/cloud/)**  
-
-  Grafana Labs’ fully managed observability platform providing hosted Grafana, Prometheus-compatible metrics (Mimir), logs (Loki), and traces (Tempo).
-
-
-
-- **[Datadog Dashboards](https://www.datadoghq.com/product/platform/dashboards/)**  
-
-  Highly polished, out-of-the-box and custom dashboards within Datadog’s unified observability platform covering infrastructure, APM, logs, and more.
-
-
-
-- **[New Relic One / New Relic Dashboards](https://newrelic.com/platform)**  
-
-  New Relic’s modern observability UI and dashboarding experience for metrics, traces, logs, and full-stack visibility.
-
-
-
-- **[Dynatrace Dashboards](https://www.dynatrace.com/)**  
-
-  AI-powered observability dashboards with automatic dependency mapping, Davis AI insights, and enterprise-scale visualization.
-
-
-
-- **[Klipfolio](https://www.klipfolio.com/)**  
-
-  Business-oriented dashboard and reporting platform focused on KPIs, metrics consolidation, and non-technical users.
-
-
-
-- **[Geckoboard](https://www.geckoboard.com/)**  
-
-  Simple, TV-friendly dashboard tool designed for sharing real-time business and operational metrics across teams.
-
-
-
-- **[SquaredUp](https://squaredup.com/)**  
-
-  Dashboarding platform with strong integrations for IT operations, cloud, and business metrics visualization.
-
-
-
-- **[SigNoz (Cloud)](https://signoz.io/)**  
-
-  Managed offering of the open-source SigNoz observability platform, providing dashboards for metrics, traces, and logs.
+| Product | Description | Pricing | Free Tier |
+| --- | --- | --- | --- |
+| **[Azure Managed Grafana](https://azure.microsoft.com/products/managed-grafana/)** | Microsoft’s fully managed Grafana service integrated with Azure Monitor, Azure data sources, and enterprise authentication. | Pay-as-you-go based on active Grafana users (~$6/user/month for standard) + underlying Azure Monitor resource usage. | 30-day free trial on Azure. |
+| **[Amazon Managed Grafana](https://aws.amazon.com/grafana/)** | AWS-managed Grafana service with native integrations to CloudWatch, X-Ray, Prometheus, and other AWS data sources. | Enterprise license (~$9/active user/month for Editor, ~$0.50/active user/month for Viewer) + AWS data source API costs. | 90-day free trial for up to 5 Editor users. |
+| **[Grafana Cloud](https://grafana.com/products/cloud/)** | Grafana Labs’ fully managed observability platform providing hosted Grafana, Prometheus-compatible metrics (Mimir), logs (Loki), and traces (Tempo). | Pro plan starts at ~$29/month + usage-based pricing for metrics, logs, and traces. | **Free Forever Tier**: Includes 10k series metrics, 50GB logs, 50GB traces, 50GB profiles, and up to 3 users. |
+| **[Datadog Dashboards](https://www.datadoghq.com/product/platform/dashboards/)** | Highly polished, out-of-the-box and custom dashboards within Datadog’s unified observability platform. | Pro starts at $15/host/month; Enterprise starts at $23/host/month (billed annually). | 14-day full-featured free trial available. |
+| **[New Relic One / New Relic Dashboards](https://newrelic.com/platform)** | New Relic’s modern observability UI and dashboarding experience for metrics, traces, logs, and full-stack visibility. | Standard, Pro, and Enterprise options based on data ingest ($0.30/GB above free limit) and core/basic user seats. | **Free Tier**: 100 GB/month ingest for free, 1 full-platform user, unlimited basic users. |
+| **[Dynatrace Dashboards](https://www.dynatrace.com/)** | AI-powered observability dashboards with automatic dependency mapping, Davis AI insights, and enterprise-scale visualization. | Consumption-based pricing (Dynatrace DPS) for Full-Stack Monitoring (~$0.08/host hour) and log ingest. | 15-day free trial available. |
+| **[Klipfolio](https://www.klipfolio.com/)** | Business-oriented dashboard and reporting platform focused on KPIs, metrics consolidation, and non-technical users. | Paid plans start at $90/month (Go), $225/month (Pro), and $800/month (Business). | **Free Tier**: Includes up to 2 metric dashboards, 4 users, and 4-hour data refresh. |
+| **[Geckoboard](https://www.geckoboard.com/)** | Simple, TV-friendly dashboard tool designed for sharing real-time business and operational metrics across teams. | Paid plans start at $39/month (Essential), $79/month (Pro), and $159/month (Scale). | 14-day free trial available (no credit card required). |
+| **[SquaredUp](https://squaredup.com/)** | Dashboarding platform with strong integrations for IT operations, cloud, and business metrics visualization. | Pro plan starts at ~$40/month; Enterprise custom pricing. | **Free Tier**: Free forever for up to 3 users and 3 dashboards. |
+| **[SigNoz (Cloud)](https://signoz.io/)** | Managed offering of the open-source SigNoz observability platform, providing dashboards for metrics, traces, and logs. | Pay-as-you-go based on telemetry ingestion ($0.10/GB logs & traces, $0.10/million metric samples). | **Free Tier**: 30-day free trial with $200 in free credits; 10 GB logs/traces per month free. |
 
 
 
