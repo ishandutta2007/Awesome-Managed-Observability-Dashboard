@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Managed-Observability-Dashboard"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Managed-Observability-Dashboard?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Managed-Observability-Dashboard"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Managed-Observability-Dashboard?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Managed-Observability-Dashboard/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Managed-Observability-Dashboard?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Managed-Observability-Dashboard/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Managed-Observability-Dashboard?color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub Followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,66 +61,66 @@ This repository tracks notable **SaaS observability platforms**, **managed dashb
 
 ## 🔓 Open-Source GitHub Projects
 
-Sorted by GitHub Stars (descending):
+Sorted by GitHub_Stars (descending):
 
-1. 💻 **[Netdata](https://github.com/netdata/netdata)** [![GitHub Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
+1. 💻 **[Netdata](https://github.com/netdata/netdata)** [![GitHub_Stars](https://img.shields.io/github/stars/netdata/netdata?style=social&color=white)](https://github.com/netdata/netdata/stargazers)  
    Real-time performance and health monitoring platform for infrastructure, metrics, and low-latency system dashboards.
 
-2. 📊 **[Grafana](https://github.com/grafana/grafana)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
+2. 📊 **[Grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)  
    The leading open-source observability and visualization platform—supports metrics, logs, traces, and a vast ecosystem of data source plugins.
 
-3. 📈 **[Apache Superset](https://github.com/apache/superset)** [![GitHub Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
+3. 📈 **[Apache Superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
    Modern, enterprise-ready data exploration and visualization platform often used for business and operational metrics dashboards.
 
-4. 🟧 **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
+4. 🟧 **[Prometheus](https://github.com/prometheus/prometheus)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/prometheus?style=social&color=white)](https://github.com/prometheus/prometheus/stargazers)  
    Core Cloud Native Computing Foundation (CNCF) metrics collection, time-series database, and alerting stack, typically paired with Grafana.
 
-5. 🔍 **[Glances](https://github.com/nicolargo/glances)** [![GitHub Stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)  
+5. 🔍 **[Glances](https://github.com/nicolargo/glances)** [![GitHub_Stars](https://img.shields.io/github/stars/nicolargo/glances?style=social&color=white)](https://github.com/nicolargo/glances/stargazers)  
    An open-source cross-platform system monitoring tool with a web-based dashboard and CLI.
 
-6. 🚀 **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
+6. 🚀 **[SigNoz](https://github.com/SigNoz/signoz)** [![GitHub_Stars](https://img.shields.io/github/stars/SigNoz/signoz?style=social&color=white)](https://github.com/SigNoz/signoz/stargazers)  
    Open-source observability platform providing a unified UI for metrics, traces, and logs built natively on OpenTelemetry and ClickHouse.
 
-7. 🪵 **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
+7. 🪵 **[Grafana Loki](https://github.com/grafana/loki)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/loki?style=social&color=white)](https://github.com/grafana/loki/stargazers)  
    Like Prometheus, but for logs—horizontally-scalable, highly-available, multi-tenant log aggregation system designed for Grafana visualization.
 
-8. 🎯 **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
+8. 🎯 **[Jaeger](https://github.com/jaegertracing/jaeger)** [![GitHub_Stars](https://img.shields.io/github/stars/jaegertracing/jaeger?style=social&color=white)](https://github.com/jaegertracing/jaeger/stargazers)  
    CNCF open-source, end-to-end distributed tracing system for monitoring microservices architecture and root-cause analysis UI.
 
-9. ⚡ **[Vector](https://github.com/vectordotdev/vector)** [![GitHub Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
+9. ⚡ **[Vector](https://github.com/vectordotdev/vector)** [![GitHub_Stars](https://img.shields.io/github/stars/vectordotdev/vector?style=social&color=white)](https://github.com/vectordotdev/vector/stargazers)  
    High-performance observability data pipeline for collecting, transforming, and routing all metrics, logs, and trace telemetry.
 
-10. 🔎 **[Elastic Kibana](https://github.com/elastic/kibana)** [![GitHub Stars](https://img.shields.io/github/stars/elastic/kibana?style=social&color=white)](https://github.com/elastic/kibana/stargazers)  
+10. 🔎 **[Elastic Kibana](https://github.com/elastic/kibana)** [![GitHub_Stars](https://img.shields.io/github/stars/elastic/kibana?style=social&color=white)](https://github.com/elastic/kibana/stargazers)  
     Visualization and exploration UI for Elasticsearch, widely used for log analysis, SIEM security, and metrics dashboards.
 
-11. 🚀 **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
+11. 🚀 **[VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)** [![GitHub_Stars](https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=social&color=white)](https://github.com/VictoriaMetrics/VictoriaMetrics/stargazers)  
     Fast, cost-effective, and scalable time series database and monitoring solution compatible with Prometheus queries and dashboards.
 
-12. ⚡ **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub Stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
+12. ⚡ **[Thanos](https://github.com/thanos-io/thanos)** [![GitHub_Stars](https://img.shields.io/github/stars/thanos-io/thanos?style=social&color=white)](https://github.com/thanos-io/thanos/stargazers)  
     Highly available Prometheus setup with long-term storage capabilities and global querying across multiple clusters.
 
-13. 🔥 **[Pyroscope](https://github.com/grafana/pyroscope)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/pyroscope?style=social&color=white)](https://github.com/grafana/pyroscope/stargazers)  
+13. 🔥 **[Pyroscope](https://github.com/grafana/pyroscope)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/pyroscope?style=social&color=white)](https://github.com/grafana/pyroscope/stargazers)  
     Continuous profiling platform integrated with Grafana to pinpoint CPU, memory, and code-level performance bottlenecks.
 
-14. 🩸 **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
+14. 🩸 **[Fluent Bit](https://github.com/fluent/fluent-bit)** [![GitHub_Stars](https://img.shields.io/github/stars/fluent/fluent-bit?style=social&color=white)](https://github.com/fluent/fluent-bit/stargazers)  
     Fast and lightweight telemetry agent for logs, metrics, and trace ingestion into open observability dashboards.
 
-15. 📡 **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
+15. 📡 **[OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)  
     Vendor-agnostic telemetry proxy for receiving, processing, and exporting OpenTelemetry data to any dashboarding tool.
 
-16. 🏛️ **[Cortex](https://github.com/cortexproject/cortex)** [![GitHub Stars](https://img.shields.io/github/stars/cortexproject/cortex?style=social&color=white)](https://github.com/cortexproject/cortex/stargazers)  
+16. 🏛️ **[Cortex](https://github.com/cortexproject/cortex)** [![GitHub_Stars](https://img.shields.io/github/stars/cortexproject/cortex?style=social&color=white)](https://github.com/cortexproject/cortex/stargazers)  
     Horizontally scalable, highly available, multi-tenant Prometheus time series database service.
 
-17. ⏱️ **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers)  
+17. ⏱️ **[Grafana Tempo](https://github.com/grafana/tempo)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/tempo?style=social&color=white)](https://github.com/grafana/tempo/stargazers)  
     Easy-to-use, high-scale, cost-effective distributed tracing backend deeply integrated with Grafana dashboards.
 
-18. 🎯 **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
+18. 🎯 **[Grafana Mimir](https://github.com/grafana/mimir)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/mimir?style=social&color=white)](https://github.com/grafana/mimir/stargazers)  
     Open-source, horizontally scalable time-series database for long-term Prometheus metrics storage.
 
-19. 🎯 **[Perses](https://github.com/perses/perses)** [![GitHub Stars](https://img.shields.io/github/stars/perses/perses?style=social&color=white)](https://github.com/perses/perses/stargazers)  
+19. 🎯 **[Perses](https://github.com/perses/perses)** [![GitHub_Stars](https://img.shields.io/github/stars/perses/perses?style=social&color=white)](https://github.com/perses/perses/stargazers)  
     Open-source, gitops-native dashboard tool focused on Prometheus and cloud-native observability ecosystem.
 
-20. 📂 **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
+20. 📂 **[OpenSearch Dashboards](https://github.com/opensearch-project/OpenSearch-Dashboards)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch-Dashboards?style=social&color=white)](https://github.com/opensearch-project/OpenSearch-Dashboards/stargazers)  
     Open-source visualization and exploration interface for OpenSearch log analytics and security trace search.
 
 ---
@@ -138,7 +138,7 @@ Sorted by GitHub Stars (descending):
 
 1. Fork the repository on GitHub.
 2. Edit `README.md` following the standard table or list format.
-3. Ensure to include product name, official URL, star badge (if open-source), and concise description.
+3. Ensure to include product name, official URL, Stars_Badge (if open-source), and concise description.
 4. Submit a Pull Request with a clear title and description.
 
 If you find this collection helpful, please **Star** ⭐ the repository to support the project!
