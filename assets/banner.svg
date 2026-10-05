@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#090d11"/>
+    </linearGradient>
+
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21262d" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="line-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#bc8cff" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.3"/>
+    </pattern>
+
+    <!-- Glow Effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 42px; fill: url(#title-gradient); }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 18px; fill: #8b949e; }
+    .badge-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 13px; fill: #c9d1d9; }
+    
+    /* Animations */
+    @keyframes pulse-wave {
+      0% { stroke-dashoffset: 1000; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes float-node {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes bar-grow {
+      0%, 100% { height: 30px; y: 250px; }
+      50% { height: 65px; y: 215px; }
+    }
+    @keyframes bar-grow-2 {
+      0%, 100% { height: 50px; y: 230px; }
+      50% { height: 85px; y: 195px; }
+    }
+    
+    .wave-line {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: pulse-wave 8s linear infinite;
+    }
+    .floating-card { animation: float-node 6s ease-in-out infinite; }
+    .anim-bar-1 { animation: bar-grow 4s ease-in-out infinite; }
+    .anim-bar-2 { animation: bar-grow-2 5s ease-in-out infinite; }
+  </style>
+
+  <!-- Main Background -->
+  <rect width="1200" height="400" rx="16" fill="url(#bg-gradient)"/>
+  <rect width="1200" height="400" rx="16" fill="url(#grid)"/>
+
+  <!-- Dynamic Background Graphs & Visual Elements (kept at low opacity / back layer) -->
+  <g opacity="0.35">
+    <!-- Animated Chart Lines -->
+    <path d="M 50 320 Q 200 280, 350 310 T 650 250 T 950 280 T 1150 200" fill="none" stroke="url(#line-grad-1)" stroke-width="3" class="wave-line"/>
+    <path d="M 50 350 Q 250 300, 450 330 T 750 220 T 1050 260 T 1150 180" fill="none" stroke="#3fb950" stroke-width="2" stroke-opacity="0.5" class="wave-line" style="animation-duration: 12s;"/>
+
+    <!-- Subtle Data Bar Graphs in background -->
+    <rect x="850" y="230" width="14" height="50" rx="3" fill="#58a6ff" opacity="0.4" class="anim-bar-1"/>
+    <rect x="872" y="210" width="14" height="70" rx="3" fill="#bc8cff" opacity="0.5" class="anim-bar-2"/>
+    <rect x="894" y="240" width="14" height="40" rx="3" fill="#3fb950" opacity="0.4" class="anim-bar-1" style="animation-delay: 1s;"/>
+    <rect x="916" y="195" width="14" height="85" rx="3" fill="#f0883e" opacity="0.6" class="anim-bar-2" style="animation-delay: 2s;"/>
+    <rect x="938" y="220" width="14" height="60" rx="3" fill="#58a6ff" opacity="0.5" class="anim-bar-1" style="animation-delay: 1.5s;"/>
+  </g>
+
+  <!-- Glowing Accent Orbs in Background -->
+  <circle cx="150" cy="100" r="120" fill="#58a6ff" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1050" cy="120" r="140" fill="#bc8cff" opacity="0.08" filter="url(#glow)"/>
+
+  <!-- Foreground Title and Subtitle (Ensured clear visibility and sharp contrast) -->
+  <g transform="translate(60, 130)">
+    <!-- Top Category Pill -->
+    <rect x="0" y="0" width="310" height="32" rx="16" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <circle cx="16" cy="16" r="6" fill="#3fb950"/>
+    <text x="32" y="21" class="badge-text">MANAGED OBSERVABILITY &amp; DASHBOARDS</text>
+
+    <!-- Main Title -->
+    <text x="0" y="80" class="title">Awesome Managed Observability</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="120" class="subtitle">Curated Ecosystem of SaaS Platforms, Open-Source Metrics, Logs &amp; Traces Dashboards</text>
+  </g>
+
+  <!-- Floating Decorative Feature Cards on Right Side (Foreground Accent) -->
+  <g class="floating-card" transform="translate(800, 70)">
+    <rect width="330" height="80" rx="12" fill="url(#card-grad)" stroke="#30363d" stroke-width="1"/>
+    <circle cx="35" cy="40" r="18" fill="#1f6feb" fill-opacity="0.3"/>
+    <path d="M 28 40 L 33 45 L 43 33" fill="none" stroke="#58a6ff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="68" y="36" font-family="-apple-system, BlinkMacSystemFont, Segoe UI" font-weight="600" font-size="14" fill="#c9d1d9">Unified Dashboards</text>
+    <text x="68" y="56" font-family="-apple-system, BlinkMacSystemFont, Segoe UI" font-weight="400" font-size="12" fill="#8b949e">Metrics • Logs • Traces • Alerts</text>
+  </g>
+
+  <g class="floating-card" transform="translate(830, 175)" style="animation-delay: -3s;">
+    <rect width="310" height="75" rx="12" fill="url(#card-grad)" stroke="#30363d" stroke-width="1"/>
+    <circle cx="35" cy="37" r="18" fill="#238636" fill-opacity="0.3"/>
+    <path d="M 28 37 L 42 37 M 35 30 L 35 44" fill="none" stroke="#3fb950" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="68" y="33" font-family="-apple-system, BlinkMacSystemFont, Segoe UI" font-weight="600" font-size="14" fill="#c9d1d9">Open-Source &amp; SaaS</text>
+    <text x="68" y="53" font-family="-apple-system, BlinkMacSystemFont, Segoe UI" font-weight="400" font-size="12" fill="#8b949e">Grafana, SigNoz, Datadog &amp; More</text>
+  </g>
+
+  <!-- Bottom Border Line -->
+  <rect x="0" y="394" width="1200" height="6" fill="url(#title-gradient)"/>
+</svg>
