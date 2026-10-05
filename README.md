@@ -42,6 +42,8 @@ This repository tracks notable **SaaS observability platforms**, **managed dashb
 
 ## ☁️ SaaS / Hosted Platforms
 
+> 📈 **Market Overview:** The global Observability & Monitoring SaaS market is estimated at **~$28 Billion in 2026** (projected to reach ~$45B+ by 2030 at a ~11.5% CAGR). The market structure is **moderately concentrated yet highly competitive**, dominated by major cloud platforms (AWS, Azure) and enterprise giants (Datadog, Dynatrace, New Relic), while remaining open to fast-growing open-source-native disruptors (Grafana Cloud, SigNoz).
+
 | Product | Description | Pricing | Free Tier | Company Size (Valuation / Revenue) |
 | --- | --- | --- | --- | --- |
 | 🟧 **[Amazon Managed Grafana](https://aws.amazon.com/grafana/)** | AWS-managed Grafana service with native integrations to CloudWatch, X-Ray, Prometheus, and other AWS data sources. | **Editor License**: $9.00/user/month; **Viewer License**: $0.50/user/month + AWS API data transfer costs. | **90-Day Free Trial**: 90 days free for up to 5 Editor user licenses per AWS account. | **~$1.95 Trillion** Market Cap (Amazon / AWS ~$105B+ ARR) |
